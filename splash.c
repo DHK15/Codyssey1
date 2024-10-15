@@ -6,11 +6,7 @@ void main()
 	char minus[1], name[16];
 	int y, m, d;
 	printf("[현재 날짜를 ""yyyy - mm - dd"" 형식으로 입력하세요] : ");
-	scanf_s("%d", &y);
-	scanf_s("%s", &minus,1);
-	scanf_s("%d",&m);
-	scanf_s("%s", &minus,1);
-	scanf_s("%d",&d);
+	scanf_s("%d-%d-%d", &y, &m, &d);
 
 	printf("[당신의 이름을 입력하세요]:");
 	scanf_s("%s", &name, 16);
